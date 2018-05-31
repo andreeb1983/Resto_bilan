@@ -7,22 +7,50 @@ body {
     color: #333;
 }
 
-#container {
-    width:600px;
-    background: white;
-    margin: 0 auto;
-
-}
 header {
-    height: 1500px;
-    margin: center;
+    text-align: center;
 }
 
-div {
-    background: white;
-    width: 50%;
-    margin: 
+ul li {
+    display: inline-block;
 }
-.div_1 {
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.p{
+    border-bottom: 1px solid black;
+}
+
+.image1 {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+.class1 {
+    float: right;
+}
+
+.gauche {
+    float: left;
+    width: 40%;
+}
+
+.droite {
+    float: right;
+    width: 40%;
+}
+
+.class {
     
+    padding-left: 20px;
+    padding-top: 150px;
+    width: 100%;
+}
+
+.clear {
+    clear:both;
 }
