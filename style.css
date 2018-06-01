@@ -2,22 +2,42 @@
 
 body {
     background: wheat;
-    width: 800px;
+    width: 800px; /* la largeur du body */
     margin: 0 auto;
     color: #333;
 }
 
 header {
     text-align: center;
+    padding-top: 20px;
+}
+
+hr {
+    color: black;
+}
+
+h5 {
+    text-align: right;
 }
 
 ul li {
     display: inline-block;
 }
 
-.container {
+footer {
+    background: white;
     margin: 0 auto;
     width: 80%;
+    padding-bottom: 50px;
+}
+
+.container {
+    background: white;
+    margin: 0 auto;
+    width: 80%;
+}
+.titre {
+    color: #8B0000;
 }
 
 .p{
@@ -26,12 +46,28 @@ ul li {
 
 .image1 {
     float: left;
-    width: 300px;
-    height: 300px;
+    width: 321px;
+    height: 321px;
+}
+
+.image2 {
+    float: right;
+    width: 321px;
+    height: 321px;
+}
+.image3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 
 .class1 {
     float: right;
+    margin: 0 auto;
+    padding-right: 20px;
+}
+.class2 {
+    padding-left: 20px;
 }
 
 .gauche {
@@ -40,17 +76,14 @@ ul li {
 }
 
 .droite {
-    float: right;
+    float: right;    
     width: 40%;
 }
 
-.class {
-    
-    padding-left: 20px;
-    padding-top: 150px;
-    width: 100%;
+.centrer {
+    text-align: center; /* centrer le contenu du footer */
 }
 
 .clear {
-    clear:both;
+    clear:both; /* remet le flux a zéro */
 }
