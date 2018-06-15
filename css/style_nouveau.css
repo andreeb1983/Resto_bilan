@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/* style page restaurant septime city guide andrée baptiste  */
+
+body {
+    background: wheat;
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* style pour le container */
+#container {
+    background:white;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+/* en-t^te centrée */
+header {
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    text-align:  center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* pied de page centrée */
+
+footer {
+   /*  background: khaki; */
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-image: url('../img/plan.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+footer h4 {
+    padding-top: 50px;
+   margin-top:  60px;
+}
+
+section {
+    min-height: 500px;
+    max-height: 500px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+}
+
+header h2, footer h2 {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.4em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+/* les class pour faire flotter les contenus */
+.agauche {
+    float: left;
+    width: 500px;
+
+}
+
+.adroite {
+    float: right;
+    width: 500px;
+}
+
+.clear {
+    clear: both;
+}
+.lanote {
+    background: #000;
+    color: #fff;
+    width: 190px;
+    margin-left: 10px;padding: 2px;
+
+}
+
+/*  la navigation */
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-weight: 700;
+    font-style: initial;
+}
+/* des couleurs provisoires */
+
+/* .orange {
+    background: orange
+}
+.vert {
+    background: lightgreen
+}
+.rose {
+    background: lightpink
+}
+ */
